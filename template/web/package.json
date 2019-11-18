@@ -4,7 +4,6 @@
   "version": "1.0.1",
   "author": "Sanity <hello@sanity.io>",
   "scripts": {
-    "dev": "next",
     "build": "next build"
   },
   "dependencies": {
