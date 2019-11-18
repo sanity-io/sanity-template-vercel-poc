@@ -1,11 +1,11 @@
 {
   "version": 0,
-  "title": "Clean",
+  "title": "Zeit poc",
   "description": "Template starter with a clean studio and a small frontend that deploys to Zeit/Now.",
   "previewMedia": {
     "type": "image",
     "src": "assets/zeit-black-full-logo.svg",
-    "alt": "A preview image of Sanity Studio."
+    "alt": "Zeit/Now logo"
   },
   "technologies": [
     {
