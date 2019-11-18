@@ -1,0 +1,34 @@
+{
+  "version": 0,
+  "title": "Clean",
+  "description": "Template starter with a clean studio and a small frontend that deploys to Zeit/Now.",
+  "previewMedia": {
+    "type": "image",
+    "src": "assets/zeit-black-full-logo.svg",
+    "alt": "A preview image of Sanity Studio."
+  },
+  "technologies": [
+    {
+      "id": "zeit",
+      "name": "Zeit",
+      "url": "https://www.zeit.co/"
+    }
+  ],
+  "deployments": [
+    {
+      "id": "studio",
+      "type": "studio",
+      "title": "Sanity Studio",
+      "description": "The Sanity Studio is where you edit and structure your content.",
+      "dir": "./studio",
+      "provider": {
+        "name": "zeit"
+      },
+      "previewMedia": {
+        "type": "image",
+        "src": "assets/zeit-black-full-logo.svg",
+        "alt": "Zeit/Now"
+      }
+    }
+  ]
+}
