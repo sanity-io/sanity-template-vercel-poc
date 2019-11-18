@@ -1,19 +1,17 @@
 {
   "private": true,
-  "name": "sanity-clean",
+  "name": "sanity-zeit-poc",
   "version": "1.0.1",
   "scripts": {
-    "build": "lerna run build --parallel",
     "build-studio": "(cd studio && npm run build)",
-    "dev": "lerna run dev --parallel",
+    "dev": "npm run build-studio && now dev",
     "format": "lerna run format",
-    "graphql-deploy": "lerna run graphql-deploy",
     "lint": "lerna run lint",
-    "postinstall": "lerna bootstrap",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "lerna bootstrap"
   },
   "devDependencies": {
-    "@sanity/cli": "^0.142.7",
-    "lerna": "^3.14.0"
+    "now": "^16.5.2",
+    "@sanity/cli": "^0.144.0",
+    "lerna": "^3.18.4"
   }
 }
