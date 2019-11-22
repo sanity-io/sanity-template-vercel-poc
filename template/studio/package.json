@@ -5,8 +5,7 @@
   "main": "package.json",
   "author": "Sanity <hello@sanity.io>",
   "scripts": {
-    "build": "sanity build public -y",
-    "dev": "sanity start",
+    "build": "sanity build ../public -y --no-minify",
     "test": "sanity check"
   },
   "dependencies": {

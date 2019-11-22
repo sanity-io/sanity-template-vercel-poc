@@ -3,8 +3,8 @@
   "name": "sanity-zeit-poc",
   "version": "1.0.1",
   "scripts": {
-    "build": "rimraf public && lerna run build --parallel && cp -R web/public public && cp -R studio/public public/studio",
-    "dev": "echo 'TODO make this better'",
+    "build": "lerna run build --parallel",
+    "start": "now dev",
     "format": "lerna run format",
     "lint": "lerna run lint",
     "postinstall": "lerna bootstrap"
