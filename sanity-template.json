@@ -4,7 +4,7 @@
   "description": "Template starter with a clean studio and a small frontend that deploys to Zeit/Now.",
   "previewMedia": {
     "type": "image",
-    "src": "assets/zeit-black-full-logo.svg",
+    "src": "assets/zeit-black-full-logo.png",
     "alt": "Zeit/Now logo"
   },
   "technologies": [
