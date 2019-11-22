@@ -1,8 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "<#< sanity.projectTitle >#>",
-    "basePath": "/studio"
+    "name": "<#< sanity.projectTitle >#>"
   },
   "api": {
     "projectId": "<#< sanity.projectId >#>",
