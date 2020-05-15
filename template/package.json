@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "sanity-zeit-poc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "lerna run build --parallel",
     "start": "now dev",
@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "now": "^16.5.2",
-    "@sanity/cli": "^0.144.0",
+    "@sanity/cli": "^1.149.13",
     "lerna": "^3.18.4"
   }
 }
