@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "sanity-now-poc-studio",
+  "name": "sanity-vercel-poc-studio",
   "version": "1.0.2",
   "main": "package.json",
   "author": "Sanity <hello@sanity.io>",

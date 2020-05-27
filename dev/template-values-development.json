@@ -16,13 +16,5 @@
   },
   "userInput": {},
   "deployments": {
-    "studio": {
-      "url": "https://sanity-clean-studio-rf4qpk9y.netlify.com/",
-      "providerName": "netlify",
-      "providerInfo": {
-        "buildHookId": "5cc04d5199df1802277a6e91",
-        "siteId": "b3b7bb87-000f-42a3-9ed3-83358be97dde"
-      }
-    }
   }
 }

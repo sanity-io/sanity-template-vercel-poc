@@ -1,17 +1,17 @@
 {
   "version": 0,
-  "title": "Zeit poc",
-  "description": "Template starter with a clean studio and a small frontend that deploys to Zeit/Now.",
+  "title": "Vercel proof of concept",
+  "description": "Template starter with a clean studio and a small frontend that deploys to Vercel.",
   "previewMedia": {
     "type": "image",
-    "src": "assets/zeit-black-full-logo.png",
-    "alt": "Zeit/Now logo"
+    "src": "assets/vercel-black-full-logo.png",
+    "alt": "Vercel"
   },
   "technologies": [
     {
-      "id": "zeit",
-      "name": "Zeit",
-      "url": "https://www.zeit.co/"
+      "id": "vercel",
+      "name": "Vercel",
+      "url": "https://vercel.com/"
     }
   ],
   "deployments": [
@@ -22,12 +22,12 @@
       "description": "The Sanity Studio is where you edit and structure your content.",
       "dir": "./studio",
       "provider": {
-        "name": "zeit"
+        "name": "vercel"
       },
       "previewMedia": {
         "type": "image",
-        "src": "assets/zeit-black-full-logo.svg",
-        "alt": "Zeit/Now"
+        "src": "assets/vercel-black-full-logo.svg",
+        "alt": "Vercel"
       }
     }
   ]
