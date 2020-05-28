@@ -1,11 +1,11 @@
 {
   "root": true,
   "project": {
-    "name": "<#< sanity.projectTitle >#>"
+    "basePath": "/studio"
   },
   "api": {
-    "projectId": "<#< sanity.projectId >#>",
-    "dataset": "<#< sanity.dataset >#>"
+    "projectId": "SANITY_STUDIO_API_PROJECT_ID",
+    "dataset": "SANITY_STUDIO_API_DATASET"
   },
   "plugins": [
     "@sanity/base",

@@ -4,9 +4,5 @@
 # Dependency directories
 /node_modules
 
-# lerna files
-/lerna-debug.log
-
-.vercel
-
-public
+.cache
+dist

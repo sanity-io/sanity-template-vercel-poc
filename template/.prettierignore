@@ -1,0 +1,4 @@
+node_modules
+/web/.next
+/studio/dist
+/studio/public

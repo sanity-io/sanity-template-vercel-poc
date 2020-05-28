@@ -1,1 +1,1 @@
-# <#< repository.name >#>-studio
+# Sanity studio

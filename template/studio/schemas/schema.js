@@ -16,19 +16,19 @@ export default createSchema({
       fields: [
         {
           name: 'author',
-          type: 'string'
+          type: 'string',
         },
         {
           name: 'text',
-          type: 'text'
-        }
+          type: 'text',
+        },
       ],
       preview: {
         select: {
           title: 'text',
-          subtitle: 'author'
-        }
-      }
-    }
-  ])
+          subtitle: 'author',
+        },
+      },
+    },
+  ]),
 })

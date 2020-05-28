@@ -1,8 +1,8 @@
-# <#< sanity.projectTitle >#>
+# Sanity template Vercel POC
 
-_A template starter with a clean Studio._
+_A template starter with a clean Studio. Deployed with Vercel_
 
-Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-clean).
+Created from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-vercel-poc).
 
 ## What you have
 
