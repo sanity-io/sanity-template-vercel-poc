@@ -4,7 +4,7 @@
   "description": "Template starter with a clean studio and a small frontend that deploys to Vercel.",
   "previewMedia": {
     "type": "image",
-    "src": "assets/vercel-black-full-logo.png",
+    "src": "assets/preview.png",
     "alt": "Vercel"
   },
   "technologies": [
@@ -14,21 +14,7 @@
       "url": "https://vercel.com/"
     }
   ],
-  "deployments": [
-    {
-      "id": "studio",
-      "type": "studio",
-      "title": "Sanity Studio",
-      "description": "The Sanity Studio is where you edit and structure your content.",
-      "dir": "./studio",
-      "provider": {
-        "name": "vercel"
-      },
-      "previewMedia": {
-        "type": "image",
-        "src": "assets/vercel-black-full-logo.svg",
-        "alt": "Vercel"
-      }
-    }
-  ]
+  "deployments": {
+    "vercel": {}
+  }
 }
