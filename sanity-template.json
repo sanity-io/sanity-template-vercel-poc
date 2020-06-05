@@ -14,7 +14,7 @@
       "url": "https://vercel.com/"
     }
   ],
-  "deployments": {
-    "vercel": {}
+  "deployment": {
+    "provider": "vercel"
   }
 }
