@@ -1,5 +1,5 @@
 {
-  "version": 0,
+  "version": 2,
   "title": "Vercel proof of concept",
   "description": "Template starter with a clean studio and a small frontend that deploys to Vercel.",
   "previewMedia": {
