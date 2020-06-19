@@ -3,14 +3,14 @@
   "private": true,
   "scripts": {
     "start": "cd template && npm start",
-    "export": "cd template/studio && sanity dataset export clean ../../data/production.tar.gz",
+    "export": "sanity dataset export production ./data/production.tar.gz",
     "lint-template": "cd template && npm run lint",
     "postinstall": "cd template && npm install"
   },
   "devDependencies": {
+    "eslint": "^7.1.0",
     "husky": "^4.2.5",
-    "vercel": "^19.0.1",
-    "eslint": "^7.1.0"
+    "vercel": "^19.0.1"
   },
   "husky": {
     "hooks": {

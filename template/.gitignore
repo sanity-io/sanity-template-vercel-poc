@@ -8,5 +8,5 @@
 /lerna-debug.log
 
 .vercel
-
+.env
 public

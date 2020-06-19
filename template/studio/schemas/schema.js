@@ -15,6 +15,10 @@ export default createSchema({
       type: 'document',
       fields: [
         {
+          name: 'title',
+          type: 'string',
+        },
+        {
           name: 'author',
           type: 'string',
         },
@@ -25,7 +29,7 @@ export default createSchema({
       ],
       preview: {
         select: {
-          title: 'text',
+          title: 'title',
           subtitle: 'author',
         },
       },

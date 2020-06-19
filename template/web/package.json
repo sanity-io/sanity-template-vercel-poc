@@ -7,6 +7,7 @@
     "start": "parcel src/index.html"
   },
   "dependencies": {
+    "@sanity/client": "^1.149.16",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
