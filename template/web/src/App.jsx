@@ -8,15 +8,23 @@ const client = createClient({
 })
 
 export default function App() {
-  const [greeting, setGreeting] = React.useState()
+  const [greeting, setGreeting] = React.useState({ status: 'loading', result: null })
   React.useEffect(() => {
-    client.fetch(`*[_id == 'welcome'][0]`).then((greeting) => setGreeting(greeting))
+    client
+      .fetch(`*[_id == 'welcome'][0]`)
+      .then((greeting) => setGreeting({ status: 'loaded', result: greeting }))
   }, [])
   return (
     <div style={{ margin: '40px' }}>
-      <h1>👋 {greeting.title}</h1>
-      <p>{greeting.text}</p>
-      <a href="/studio/desk/message;welcome">Edit now!</a>
+      {greeting.status === 'loading' ? (
+        <>Loading…</>
+      ) : (
+        <>
+          <h1>👋 {greeting.result.title}</h1>
+          <p>{greeting.result.text}</p>
+          <a href="/studio/desk/message;welcome">Edit now!</a>
+        </>
+      )}
     </div>
   )
 }
