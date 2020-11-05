@@ -1,26 +1,28 @@
 {
-  "private": true,
   "name": "sanity-template-vercel-poc-studio",
-  "version": "1.0.1",
+  "private": true,
+  "version": "1.0.0",
   "main": "package.json",
   "author": "Sanity <hello@sanity.io>",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
     "test": "sanity check"
   },
+  "keywords": [
+    "sanity"
+  ],
   "dependencies": {
-    "@sanity/base": "^1.149.16",
-    "@sanity/cli": "^1.149.16",
-    "@sanity/components": "^1.149.16",
-    "@sanity/core": "^1.149.17",
-    "@sanity/dashboard": "^1.149.16",
-    "@sanity/default-layout": "^1.149.16",
-    "@sanity/default-login": "^1.149.16",
-    "@sanity/desk-tool": "^1.149.16",
-    "@sanity/vision": "^1.149.16",
+    "@sanity/base": "^2.0.9",
+    "@sanity/components": "^2.0.9",
+    "@sanity/core": "^2.0.9",
+    "@sanity/default-layout": "^2.0.9",
+    "@sanity/default-login": "^2.0.9",
+    "@sanity/desk-tool": "^2.0.9",
+    "@sanity/vision": "^2.0.9",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "sanity-plugin-dashboard-widget-document-list": "^0.0.10"
-  }
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {}
 }

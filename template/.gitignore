@@ -1,12 +1,7 @@
-# Mac files
-.DS_Store
-
-# Dependency directories
-/node_modules
-
-# lerna files
-/lerna-debug.log
-
 .vercel
+.next
 .env
-public
+.env.development
+public/studio
+studio/dist
+node_modules

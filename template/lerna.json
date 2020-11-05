@@ -1,4 +1,6 @@
 {
-  "packages": ["studio", "web"],
+  "packages": [
+    "studio"
+  ],
   "version": "0.0.0"
 }

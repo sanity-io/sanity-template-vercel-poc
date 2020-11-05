@@ -1,22 +1,35 @@
-# sanity-template-vercel-poc
+# DISCLAIMER: THIS IS WORK IN PROGRESS AND NOT READY FOR USE.
 
-_WORK IN PROGRESS_
+# Sanity + Next.js + Vercel example
 
-_A template starter with a clean Studio and deployment to  [Vercel](https://vercel.com)._
+> A bare bones example of a Vercel-deployable project with a Next.js frontend and a Sanity Studio on /studio
 
-This template repo is used by Sanity.io to easily create deployed and configured projects through a web interface. You can test it out by [creating this project](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-vercel-poc).
+## Getting started
 
-The template contains a Sanity Studio and a minimalist [Parcel.js](https://parceljs.org/) frontend that will be readily deployed on [Vercel](https://vercel.com).
-
-## Local development
-
-2. **Run `npm install` from the root folder.** This will install all the needed dependencies
-2. **Run `npm start` from the root folder.** This will start a development server for both your Sanity Studio and an example frontend
+1. Clone repo
+    ```
+    git clone https://github.com/sanity-io/sanity-nextjs-examle
+    ```
+1. Install dependencies
+    ```
+    npm install
+    ```
+1. Setup Sanity
+    ```
+    cd studio && sanity init
+    ```
+    This will prompt you if you want to reconfigure the project. Answer yes and follow instructions to create a new project.
+1. Setup Vercel deployment
+    ```
+    vercel
+    ```
+   When asked about build settings, make sure to use `npm run dev` as the development command 
 
 ## Notes
-
-When developing, you may copy `./template/studio/.env.development.example` to `./template/studio/.env.development` and replace the environment variables with the ones from your own Sanity project
-
-```sh
-cp ./template/studio/.env.development.example ./template/studio/.env.development
-```
+In development (using `npm run dev`)
+- The Next.js application will run on https://localhost:3000
+- The Sanity Studio dev server will run on http://localhost:3333/studio
+ 
+In production (`using vercel`)
+- The Next.js application will be available on `https://<your-domain>` 
+- The Sanity Studio will be accessible on `https://<your-domain>/studio` 

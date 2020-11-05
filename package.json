@@ -1,17 +1,27 @@
 {
-  "name": "sanity-template-vercel-poc",
+  "name": "sanity-nextjs-example",
+  "version": "0.0.0",
   "private": true,
+  "description": "# Sanity + Next.js + Vercel example",
+  "main": "index.js",
   "scripts": {
-    "start": "cd template && npm start",
-    "export": "sanity dataset export production ./data/production.tar.gz",
-    "lint-template": "cd template && npm run lint",
-    "postinstall": "cd template && npm install"
+    "test": "sanity-template check"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
-    "husky": "^4.2.5",
-    "vercel": "^19.0.1"
+    "sanity-template": "^2.1.1",
+    "husky": "^4.3.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/sanity-nextjs-vercel-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanity-io/sanity-nextjs-vercel-example/issues"
+  },
+  "homepage": "https://github.com/sanity-io/sanity-nextjs-vercel-example#readme",
   "husky": {
     "hooks": {
       "post-commit": "([ -z \"$SKIP_HOOK\" ] && npm run lint-template"
