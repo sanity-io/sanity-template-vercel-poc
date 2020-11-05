@@ -2,6 +2,11 @@
   "version": 2,
   "title": "Next.js example",
   "description": "A minimal example using Sanity for Content and Next.js as frontend, deployed to Vercel.",
+  "previewMedia": {
+    "type": "image",
+    "src": "assets/preview.png",
+    "alt": "Screenshot of the Next.js frontend"
+  },
   "technologies": [
     {
       "id": "nextjs",
