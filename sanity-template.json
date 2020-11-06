@@ -24,9 +24,13 @@
     "studio": {
       "basePath": "/studio"
     },
+    "deployHook": {
+      "name": "Production deployment hook",
+      "envVars": ["SANITY_STUDIO_BUILD_HOOK"]
+    },
     "tokens": [
       {
-        "label": "Write token",
+        "label": "Example write token",
         "role": "write",
         "envVar": "SANITY_WRITE_TOKEN"
       }
