@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Index.module.css'
-import {sanityClient} from '../lib/sanityClient'
+import { sanityClient } from '../lib/sanityClient'
 
 export default function Index(props) {
   return (
@@ -11,9 +11,7 @@ export default function Index(props) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          {props.greeting?.title}
-        </h1>
+        <h1 className={styles.title}>{props.greeting?.title}</h1>
 
         <p className={styles.description}>{props.greeting?.text}</p>
         <p className={styles.description}>
@@ -48,7 +46,7 @@ export default function Index(props) {
         >
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />{' '}
-          and {' '}
+          and{' '}
           <img src="/sanity.svg" alt="Sanity Logo" className={styles.logo} />
         </a>
       </footer>
