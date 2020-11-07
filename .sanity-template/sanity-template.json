@@ -4,7 +4,7 @@
   "description": "A minimal example using Sanity for Content and Next.js as frontend, deployed to Vercel.",
   "previewMedia": {
     "type": "image",
-    "src": "assets/preview.png",
+    "src": ".sanity-template/screenshot.png",
     "alt": "Screenshot of the Next.js frontend"
   },
   "technologies": [

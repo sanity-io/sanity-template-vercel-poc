@@ -1,30 +1,29 @@
 {
-  "name": "sanity-nextjs-example",
+  "name": "sanity-template-vercel-poc",
   "version": "0.0.0",
   "private": true,
-  "description": "# Sanity + Next.js + Vercel example",
-  "main": "index.js",
+  "description": "A bare bones example of a Vercel-deployable project with a Next.js frontend and a Sanity Studio on /studio",
   "scripts": {
-    "test": "sanity-template check"
-  },
-  "devDependencies": {
-    "sanity-template": "^2.1.1",
-    "husky": "^4.3.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sanity-io/sanity-nextjs-vercel-example.git"
+    "dev": "concurrently \"next --port $PORT\" \"cd studio && sanity start\"",
+    "build": "echo 'Building Sanity to public/studio' && cd studio && sanity build ../public/studio -y && cd .. && next build",
+    "start": "vercel dev",
+    "postinstall": "lerna bootstrap",
+    "check-template": "sanity template check"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sanity.io <hello@sanity.io>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sanity-io/sanity-nextjs-vercel-example/issues"
+  "dependencies": {
+    "@sanity/cli": "^2.0.5",
+    "@sanity/client": "^2.0.1",
+    "next": "^10.0.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
-  "homepage": "https://github.com/sanity-io/sanity-nextjs-vercel-example#readme",
-  "husky": {
-    "hooks": {
-      "post-commit": "([ -z \"$SKIP_HOOK\" ] && npm run lint-template"
-    }
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.1.2",
+    "sanity-template": "^2.1.1"
   }
 }

@@ -1,7 +1,0 @@
-.vercel
-.next
-.env
-.env.development
-public/studio
-studio/dist
-node_modules
