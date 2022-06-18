@@ -1,7 +1,7 @@
 {
   "name": "sanity-template-vercel-poc-studio",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "package.json",
   "author": "Sanity <hello@sanity.io>",
   "license": "UNLICENSED",
@@ -21,8 +21,8 @@
     "@sanity/desk-tool": "^2.0.9",
     "@sanity/vision": "^2.0.9",
     "prop-types": "^15.7.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {}
 }
